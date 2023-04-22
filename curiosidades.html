@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Handebol</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="normalize.css">
+
+    </head> 
+
+    <body>
+        <header>
+            <nav>
+                <label class="logo">Handebol</label>
+                <menu>
+                    <li><a href="Index.html" target="_self">Início</a></li>
+                    <li><a href="historia.html" target="_self">História</a></li>
+                    <li><a href="quiz.html" target="_self">Quiz</a></li>
+                    <li><a class="active" href="curiosidades.html" target="_self">Curiosidades</a></li>
+                </menu>
+            </nav>
+        </header>
+
+        <section class="row">
+            <h1>Curiosidades</h1>
+            <div class="column side">
+                <button type="button" onclick="changeColor()">Alterar a cor da página</button>
+                <button type="button" onclick="changeFont()">Alterar a fonte da página</button>
+                <button type="button" onclick="changeFontSize()">Alterar o tamanho do texto da página</button>              
+                <button onclick="reset()">Desfazer mudanças</button>
+            </div>
+
+            <article class="column middle">
+                
+                <h2 class="h2">Curiosidades sobre o handebol</h2>
+                <ul>
+                    <li>O primeiro jogo internacional de Handebol ocorreu entre Alemanha e Áustria, no ano de 1925. A Áustria saiu vencedora pelo placar de 6 a 3.</li>
+                    <li>O primeiro campeonato mundial de Handebol masculino ocorreu em 1972. Já o primeiro feminino foi disputado em 1976.</li>
+                    <li>O Handebol brasileiro estreou nas Olimpíadas somente em 1992, durante os Jogos Olímpicos de Barcelona (Espanha).</li>
+                    <li>O esporte é praticado por cerca de 34 milhões de atletas em 187 países.</li>
+                    <li>A maior goleada num jogo oficial de Handebol ocorreu no ano de 1981. Na ocasião, a seleção soviética venceu a afegã pelo impressionante placar de 86 a 2</li>
+                    <li>O tamanho oficial de uma quadra de Handebol é de 80 m², sendo 40 metros de comprimento por 20 metros de largura</li>
+                    <li>A França é o principal destaque no Handebol masculino, pois ganhou medalhas de ouro nas Olimpíadas de 2008 (Pequim), 2012 (Londres), 2020 (Tóquio) e de prata nos Jogos Olímpicos do Rio 2016. Já no Handebol feminino, os grandes destaques da atualidade são a seleção dinamarquesa, que ganhou medalhas de ouro nas Olimpíadas de 2008 e 2012, além da seleção russa que conquistou o ouro nos Jogos Olímpicos do Rio 2016. Porém, na Olimpíada de 2020 foram as francesas que ficaram com o ouro.</li>
+                    <li>O jogador que mais marcou gols numa partida de Handebol foi Zoran Mikulic. O croata marcou 21 gols numa partida disputada em Guadalajara (México)</li>
+                    <li>Talant Duyshebaev é o unico jogador de Handebol a conquistar medalhas olímpicas por dois países. Nascido no Quirguistão, Talant ganhou medalha de ouro nas Olimpíadas de 1992, jogando pela equipe da CEI (Comunidade dos Estados Independentes). Após assumir a nacionalidade espanhola, conquistou medalhas de bronze nos Jogos Olímpicos de 1996 e 2000, jogando pela Espanha</li>
+                    <li>"Handball 21" é um jogo de videogame de simulação de handebol lançado em 2020 desenvolvido pela empresa Eko Software.</li> 
+                    <li>Meninas de Ouro é um documentário lançado em 2016 que narra a toda a trajetódia de conquistas da seleção até a conquista do épico título de campeã do mundo em 2013.</li>
+                </ul>
+                <h3>Sites relacionados ao handebol:</h3>
+                <div>
+                    <p><a href="https://cbhb.org.br/" target="siteExterno">Confederação Brasileira de Handebol</a></p>
+                    <p><a href="https://brasilhandebol.nsports.com.br/" target="siteExterno">Brasil Handebol</a></p>
+                    <p><a href="https://fphand.com.br/home/" target="siteExterno">Federação Paulista de Handebol</a></p>
+                    <p><a href="https://www.ihf.info/federations" target="siteExterno">Federação Internacional de Handebol</a></p>
+                </div>
+                <div id="curiosidadesImg">
+                    <img src="imagemCarrossel1.jpg" alt="imagem Carrossel">
+                </div>            
+                <button onclick='carrosselIndo()'>Clique para ver a foto anterior</button>
+                <button onclick='carrosselVoltando()'>Clique para ver a foto seguinte</button>
+
+            </article>
+
+                <div class="column side"></div>
+        </section>
+
+        <footer><p>Criado por Renan Costa Alves</p>
+            <p>20222210018</p>
+        </footer> 
+        <script src="index.js"></script>
+        <script src="secScript.js"></script>
+
+    </body>
+</html>
